@@ -26,7 +26,7 @@ public class CheckGuest {
         String nome = input.nextLine().toLowerCase();
         String cognome = input.nextLine().toLowerCase();
 
-        Boolean InvitatoTrovato = false;
+        boolean InvitatoTrovato = false;
         String NomeInvitatoTrovato = "";
 
         for (int i = 0; i < Invitati.length; i++) {
